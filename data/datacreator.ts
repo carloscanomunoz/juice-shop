@@ -8,6 +8,7 @@ import * as models from '../models/index'
 import { Address, Card, Challenge, Delivery, Memory, Product, Recycle, SecurityQuestion, User } from './types'
 const datacache = require('./datacache')
 const config = require('config')
+const utils = require('../lib/utils')
 const mongodb = require('./mongodb')
 const security = require('../lib/insecurity')
 const logger = require('../lib/logger')
