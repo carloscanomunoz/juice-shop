@@ -40,11 +40,11 @@ module.exports = {
         '@typescript-eslint/restrict-template-expressions': 'off', // 466
         '@typescript-eslint/no-var-requires': 'off', // 502
         '@typescript-eslint/no-misused-promises': 'off', // 95
-        'no-console' : 2
+        'no-console': 2
       }
     }
   ],
   plugins: [
-    "only-warn"
+    'only-warn'
   ]
 }
